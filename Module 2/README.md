@@ -21,6 +21,8 @@
 - Alternately take a existing function or feature and just do one at a time in both Kotlin and Java
 - Start maybe with Unit Tests, write them in Kotlin. Still real life tasks
 
+## The Basics
+
 ### Read only variable
 
 - `val`
@@ -34,16 +36,27 @@
 - `var`
 - Can be reassigned
 
-## Functions
+### Functions
 
 - Return `Unit` is the same as return `void`. It's that by default if it doesn't return anything.
 - you can use them in Java was a static function
 - you can also call Java in Kotlin
 
-## Named & Default Arguments
+### Named & Default Arguments
 
 - named arguments allows you to add argments in whatever order just by providing the name.
 - Example: `listOf('a', 'b', 'c').joinToString(separator = "", prefix = "(", postfix =")"))` prints `(abc)`
 - Example: `listOf(1, 2, 3).joinToString(postfix = ".", separator = ""))` prints `1, 2, 3.`
 - if you don't provide the named args and pass the wrong types it'll error. It wont implicitly convert.
--
+
+## Control Structures
+
+### Conditionals: if & when
+
+### Loops
+
+### `in` checks & ranges
+
+### Kotlin Playground: Checking identifier
+
+### Exceptions
